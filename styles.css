@@ -1,0 +1,207 @@
+html {
+
+background-color: #f5f0f0;
+font-family: 'Josefin Sans', sans-serif;
+color: #7187d6;
+
+}
+
+.title {
+
+/*height: 400px;
+width: 400px; */
+height: 200px;
+width: 200px;
+position: absolute;
+top: 0px;
+left: 90px;
+position: fixed;
+}
+
+.non-desktop {
+display: none;
+}
+
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 100px; /* Stay at the top */
+  left: 100px;
+  background-color: transparent;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 25px 8px 25px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #7187d6;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  text-decoration: underline;
+  color: #f26984;
+}
+
+/* The sidebar menu */
+
+
+.answer {
+font-size: 60px;
+padding-top: 120px;
+padding-left: 350px;
+}
+
+span {
+text-decoration: underline;
+}
+
+.quote h3 {
+display: inline-block;
+padding-left: 400px;
+padding-bottom: 50px;
+line-height: 1.7;
+}
+
+h5 {
+text-align: right;
+}
+
+
+
+
+.quote .effect:hover {
+text-decoration: underline;
+}
+
+
+
+
+.about-section h4 {
+
+font-size: 40px;
+padding-left: 600px;
+padding-top: 40px;
+}
+
+.about-section p {
+padding-left: 300px;
+line-height: 1.8;
+
+}
+
+.about-section img {
+height: 200px;
+width: 200px;
+padding-left: 680px;
+
+}
+
+
+
+.info-update {
+text-align: center;
+text-decoration: underline;
+}
+
+
+.writings-section p, a {
+
+  display: inline;
+  text-align: center;
+  padding-left: 250px;
+  padding-top: 500px;
+  color: #7187d6;
+
+}
+
+.writings-section {
+padding-top: 200px;
+line-height: 2.7;
+
+}
+
+
+.writings-section a:hover {
+  text-decoration: underline;
+  color: #f26984;
+}
+
+
+.in-arabic {
+font-family: 'Amiri', serif;
+text-align: right;
+}
+
+
+footer {
+
+  background-color: transparent;
+/*  position:fixed; */
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+  padding-top: 20%;
+}
+
+
+
+/*---------------------------------------*/
+
+
+/* Ipad
+
+@media only screen and (min-width: 766px) {
+
+.non-desktop {
+padding-top: 180px;
+display: block;
+text-align: center;
+font-size: 50px;
+}
+
+.title, .sidenav, .answer, .quote{
+display: none;
+}
+
+footer {
+display: none;
+}
+
+
+}
+
+*/
+
+
+
+/* iPhone */
+
+@media only screen and (max-width: 500px) {
+
+.non-desktop {
+padding-top: 140px;
+display: block;
+text-align: center;
+font-size: 30px;
+}
+
+.title, .sidenav, .answer, .quote{
+display: none;
+}
+
+footer {
+display: none;
+}
+
+
+}
